@@ -1,0 +1,36 @@
+.voucherme-input {
+	display: flex;
+}
+.voucherme-input input {
+	flex: 1 0 auto;
+	width: auto !important;
+	margin-bottom: 0 !important;
+}
+.voucherme-input a {
+	flex: 0 1 auto;
+	width: auto !important;
+	white-space: nowrap !important;
+}
+.voucherme-cont.doing-ajax {
+	opacity: 0.3;
+}
+.voucherme-cont.has-voucher .voucherme-a {
+	display: none;
+}
+.voucherme-cont .voucherme-r {
+	display: none;
+}
+.voucherme-cont.has-voucher .voucherme-r {
+	display: block;
+}
+#wc-voucherme-modal p {
+	text-align: center;
+	background-color: #fff;
+	color: #555;
+	border: 1px solid #555;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+.jquery-modal.blocker {
+	z-index: 9999;
+}
